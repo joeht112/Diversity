@@ -10,6 +10,28 @@
     display: inline-block;
     background-color: gainsboro;
     position: relative;
-    right: 0px;
-    top: 0px;
+    right: 0rem;
+    top: 0rem;
+}
+div {
+    width: 100%;
+}
+.background-panel {
+    background-color: #33c8fa;
+    width: 100%;
+    height: 250px;
+    position:relative
+}
+.window {
+    width: 100%;
+    height: 200px;
+    visibility: hidden;
+}
+#footer1 {
+    background-color: #33c8fa;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: larger;
+    padding-top: 30px;
+    height: 80px
 }
