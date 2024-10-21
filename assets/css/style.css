@@ -1,26 +1,25 @@
 .main-heading {
-    color: lightcoral;
-    background-color:gainsboro;
+    background-color:lightcoral;
     display: inline-block;
     position:relative;
-    left: 0px;
-    top: 0px;
+    left: 25px;
+    top: 10px;
 }
 .menu {
-    display: inline-block;
     background-color: gainsboro;
-    position: relative;
-    right: 0rem;
-    top: 0rem;
+    position: absolute;
+    right: 25px;
+    top: 10px;
 }
 div {
     width: 100%;
 }
 .background-panel {
-    background-color: #33c8fa;
+    background-color: lightcoral;
     width: 100%;
     height: 250px;
-    position:relative
+    position:relative;
+    display: flex;
 }
 .window {
     width: 100%;
@@ -28,10 +27,28 @@ div {
     visibility: hidden;
 }
 #footer1 {
-    background-color: #33c8fa;
+    background-color: lightcoral;
     text-align: center;
     font-family: Oswald, sans-serif;
     font-size: larger;
     padding-top: 30px;
-    height: 80px
+    height: 80px;
+    position: static;
+    bottom: 0px;
+}
+#header {
+    background-color: lightcoral;
+    font-size: large;
+    font-family: Oswald, sans-serif;
+    padding-bottom: 30px;
+}
+#wallpaper{
+    background-image: link();
+    z-index: -2;
+    position: fixed;
+}
+.card {
+    display:inline-block;
+    border: 10px;
+    flex-shrink: 1;
 }
