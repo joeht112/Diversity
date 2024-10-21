@@ -1,0 +1,15 @@
+.main-heading {
+    color: lightcoral;
+    background-color:gainsboro;
+    display: inline-block;
+    position:relative;
+    left: 0px;
+    top: 0px;
+}
+.menu {
+    display: inline-block;
+    background-color: gainsboro;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
