@@ -6,6 +6,5 @@ Hopefully I will be able to put a video in the middle.
 
 ###Credits
 Thanks to Code Institute for providing learning and workspace.
-Video found on youtube
 Images found on google
 informational text is original.
